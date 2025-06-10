@@ -4,7 +4,7 @@ class User:
         self.username = username
         self.followers = 0
         self.following = 0
-        print("Welcome to the Quiz!")
+        print("Welcome to the Social Media!")
 
     def follow(self, user):
         self.following += 1
